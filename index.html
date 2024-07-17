@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>LevelUp - Главная</title>
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+
+    <div class="headerPromo">
+      <video src="./videos/video.mp4" playsinline autoplay muted loop></video>
+
+      <div class="container">
+        <h1 class="headerPromo__name">LevelUp</h1>
+
+        <div class="headerPromo__info">
+          <div class="imageWrap">
+            <img src="./images/prod.png" alt="photo" class="photoProd" />
+          </div>
+
+          <div class="wrapper">
+            <ul class="promoSpecificationProd">
+              <li class="promoSpecificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+              <li class="promoSpecificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+              <li class="promoSpecificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+
+            <div class="btnWrap">
+              <button type="button" id="order-btn" class="orderBtn">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="compoundProd">
+      <div class="container">
+        <h2 class="contentHeading">Состав</h2>
+      </div>
+
+      <div class="wrapper container">
+        <div class="compoundProd__ingredients compoundProd__ingredients_left">
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+        </div>
+
+        <div class="compoundProd__image">
+          <img src="./images/prod.png" alt="photo" class="photoProd" />
+        </div>
+
+        <div class="compoundProd__ingredients compoundProd__ingredients_right">
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+
+          <div class="compoundProd__item">
+            <div class="imageWrap">
+              <img src="./images/ingredient-1.png" alt="image" />
+            </div>
+            <p class="text">Lorem ipsum dolor</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="btnWrap container">
+        <button type="button" id="order-btn" class="orderBtn">Заказать</button>
+      </div>
+    </div>
+
+    <div class="reviewsProd">
+      <div class="container">
+        <div class="slider swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div id="slider-card" class="slider__item">
+                <div class="slider__photo">
+                  <img src="./images/review-1.jpg" alt="photo" />
+                </div>
+
+                <p class="slider__name">Иван Иванов</p>
+
+                <p class="slider__text">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam nulla animi pariatur recusandae eum reiciendis quia? Rerum itaque provident, minus quisquam ex, quidem, a harum impedit dignissimos at amet.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div id="slider-card" class="slider__item">
+                <div class="slider__photo">
+                  <img src="./images/review-1.jpg" alt="photo" />
+                </div>
+
+                <p class="slider__name">Иван Иванов</p>
+
+                <p class="slider__text">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam nulla animi pariatur recusandae eum reiciendis quia? Rerum itaque provident, minus quisquam ex, quidem, a harum impedit dignissimos at amet.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div id="slider-card" class="slider__item">
+                <div class="slider__photo">
+                  <img src="./images/review-1.jpg" alt="photo" />
+                </div>
+
+                <p class="slider__name">Иван Иванов</p>
+
+                <p class="slider__text">
+                  <i class="fa-solid fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam nulla animi pariatur recusandae eum reiciendis quia? Rerum itaque provident, minus quisquam ex, quidem, a harum impedit dignissimos at amet.
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="promoProd">
+      <div class="container">
+        <div class="promoProd__info">
+          <div class="imageWrap">
+            <img src="./images/doctor.png" alt="photo" class="photoProd" />
+          </div>
+
+          <div class="description">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aut exercitationem modi sequi quis quidem provident a facilis maiores dolorem ab rem recusandae maxime, laboriosam atque. Exercitationem earum ratione ea.
+            </p>
+            <p class="text">Rerum itaque provident, minus quisquam ex, quidem, a harum impedit dignissimos at amet.</p>
+          </div>
+        </div>
+
+        <ul class="specificationProd">
+          <li class="specificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+          <li class="specificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+          <li class="specificationProd__item">Lorem ipsum dolor sit amet consectetur</li>
+        </ul>
+
+        <div class="btnWrap">
+          <button type="button" id="order-btn" class="orderBtn">Заказать</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="order-form" class="orderForm">
+      <div class="container">
+        <h2 class="orderForm__name contentHeading">LevelUp - Продукт для повышения потенции</h2>
+
+        <div class="orderForm__timer">
+          <div class="minutes">
+            <span id="timer-min">00</span>
+            <span>минуты</span>
+          </div>
+
+          <p id="timer-anim" class="divider">:</p>
+
+          <div class="seconds">
+            <span id="timer-sec">00</span>
+            <span>секунды</span>
+          </div>
+        </div>
+
+        <div class="orderForm__info">
+          <div class="orderForm__prod">
+            <div class="imageWrap">
+              <img src="./images/prod.png" alt="photo" class="photoProd" />
+            </div>
+
+            <div class="prices">
+              <p class="oldPrice">1000 р.</p>
+              <p class="newPrice">500 р.</p>
+            </div>
+          </div>
+
+          <div class="orderForm__form">
+            <form action="#" class="formProd">
+              <div class="formProd__fieldWrap">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя*"
+                  required
+                  autocomplete="on"
+                  class="field"
+                  min="2"
+                  max="50"
+                />
+                <span class="label">Иван Иванов</span>
+              </div>
+
+              <div class="formProd__fieldWrap">
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Ваш телефон*"
+                  required
+                  autocomplete="on"
+                  class="field"
+                  pattern="(^8|7|\+7)\s?[\(]{0,1}[0-9]{3}[\)]{0,1}\s?\d{3}[\-\s?]{0,1}\d{2}[\-\s?]{0,1}\d{2}"
+                  min="11"
+                  max="20"
+                />
+                <span class="label">+7 999 111 22 33</span>
+              </div>
+
+              <button type="submit" class="formProd__btn orderBtn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>
